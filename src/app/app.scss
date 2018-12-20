@@ -23,6 +23,11 @@
   background-color: #e7c700 !important;
 }
 
+.background{
+  background-color: black;
+  filter: opacity(90%);
+}
+
 .list-ios, .item{
   border: none !important;
 }
@@ -76,6 +81,11 @@
   color: white;
 }
 
+.l_gray{
+  background-color: #1f1f27;
+  color: white;
+}
+
 .l_orange{
   background-color: #ffac68;
   color: white;
@@ -87,5 +97,6 @@
 }
 
 .l_icone_card{
-  font-size: 2.5em !important;
+  margin-top: 10px;
+  font-size: 4em !important;
 }
