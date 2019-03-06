@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { InicioPage } from '../pages/inicio/inicio';
 import { ListPage } from '../pages/list/list';
+import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -16,6 +17,7 @@ import { HTTP } from '@ionic-native/http';
     MyApp,
     HomePage,
     InicioPage,
+    TabsPage,
     ListPage
   ],
   imports: [
@@ -27,6 +29,7 @@ import { HTTP } from '@ionic-native/http';
     MyApp,
     HomePage,
     InicioPage,
+    TabsPage,
     ListPage
   ],
   providers: [
