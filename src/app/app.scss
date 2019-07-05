@@ -15,6 +15,9 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+$background: lightblue;
+$secondary-background: white;
+
 .title{
   text-align: center;
 }
@@ -23,9 +26,27 @@
   background-color: #e7c700 !important;
 }
 
+.tabs-md .tabbar {
+    background-color: $background !important;
+}
+
+.tab-item-active {
+    background:$secondary-background;
+}
+
+a.tab-button[aria-selected=true] {
+    color: $secondary-background !important;
+    .icon{
+      color: $secondary-background !important;
+    }
+} 
+
 .background{
-  background-color: black;
-  filter: opacity(90%);
+  background-color: $background !important;
+}
+
+.secondary-background{
+  background-color: white !important;
 }
 
 .list-ios, .item{
@@ -99,4 +120,29 @@
 .l_icone_card{
   margin-top: 10px;
   font-size: 4em !important;
+}
+
+.card{
+  img{
+    height: 250px !important;
+    filter: opacity(70%);
+  }
+}
+
+.card-title{
+  position: absolute !important;
+  top: 35% !important;
+  color: $secondary-background !important;
+  font-size: 5em !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.card-subtitle{
+  position: absolute !important;
+  top: 60% !important;
+  color: $secondary-background !important;
+  font-size: 1.5em !important;
+  width: 100% !important;
+  text-align: center !important;
 }

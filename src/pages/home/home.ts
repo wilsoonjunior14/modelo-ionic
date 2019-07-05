@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { InicioPage } from '../inicio/inicio';
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-home',
@@ -8,16 +9,18 @@ import { InicioPage } from '../inicio/inicio';
 })
 export class HomePage {
 
-  tab1Root: InicioPage;
-  tab2Root: InicioPage;
-  tab3Root: InicioPage;
+  tab1: any;
+  tab2: any;
+  tab3: any;
 
   constructor(public navCtrl: NavController) {
-
+  this.tab1= InicioPage;
+  this.tab2= InicioPage;
+  this.tab3= InicioPage;
   }
 
   entrar(){
-    this.navCtrl.setRoot(InicioPage);
+    this.navCtrl.setRoot(TabsPage);
   }
 
 }
