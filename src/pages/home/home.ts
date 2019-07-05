@@ -8,15 +8,7 @@ import { TabsPage } from '../tabs/tabs';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
-  tab1: any;
-  tab2: any;
-  tab3: any;
-
   constructor(public navCtrl: NavController) {
-  this.tab1= InicioPage;
-  this.tab2= InicioPage;
-  this.tab3= InicioPage;
   }
 
   entrar(){
