@@ -23,7 +23,7 @@ $secondary-background: white;
 }
 
 .toolbar-background{
-  background-color: black !important;
+  background-color: $ !important;
 }
 
 .tabs-md .tabbar {
@@ -124,7 +124,7 @@ a.tab-button[aria-selected=true] {
 
 .card{
   img{
-    height: 250px !important;
+    height: 200px !important;
     filter: opacity(70%);
   }
 }

@@ -1,11 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-<<<<<<< HEAD
 
 import {InicioPage} from '../inicio/inicio';
-=======
-import { InicioPage } from '../inicio/inicio';
->>>>>>> 1ed8bcd5d3d342384837163ff8cc7549ecbba480
 
 /**
  * Generated class for the TabsPage page.
@@ -29,6 +25,7 @@ export class TabsPage {
     this.tab1 = InicioPage;
     this.tab2 = InicioPage;
     this.tab3 = InicioPage;
+    }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TabsPage');
